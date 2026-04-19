@@ -1,0 +1,1200 @@
+<!-- ==========
+FILE: /index.html
+========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cammdesigns — Premium ERLC Designs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Cammdesigns</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="discord.html" class="nav-link nav-cta">Join Discord</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Premium ERLC designs & services</h1>
+          <p>
+            Cammdesigns delivers high-end ERLC graphics, liveries, bots, and branding
+            for communities that want a sharp, professional look.
+          </p>
+          <div class="hero-actions">
+            <a href="courses.html" class="btn primary">Browse Courses</a>
+            <a href="discord.html" class="btn ghost">Join Discord</a>
+          </div>
+          <p class="hero-meta">
+            Trusted by <strong>2,000+ creators</strong> across the ERLC community.
+          </p>
+        </div>
+        <div class="hero-media">
+          <div class="hero-card">
+            <h2>Cammdesigns Studio</h2>
+            <p>Clean layouts, bold contrast, and detail-focused design for every project.</p>
+            <ul class="hero-list">
+              <li>Custom server branding</li>
+              <li>Optimized liveries & uniforms</li>
+              <li>Automated Discord systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services overview -->
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>What we create</h2>
+          <p>Specialized design services tailored for ERLC and Roblox communities.</p>
+        </header>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Graphics & Branding</h3>
+            <p>High-impact logos, banners, and promo graphics that define your community’s identity.</p>
+            <ul class="tag-list">
+              <li>Logos</li>
+              <li>Banners</li>
+              <li>Promo art</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Liveries & Clothing</h3>
+            <p>Detailed ERLC liveries and Roblox uniforms that look polished and ready for release.</p>
+            <ul class="tag-list">
+              <li>Police & fire</li>
+              <li>Civilian fleets</li>
+              <li>Uniform sets</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Bots & Infrastructure</h3>
+            <p>Discord bots, automation, and server layouts that keep your community running smoothly.</p>
+            <ul class="tag-list">
+              <li>Ticket systems</li>
+              <li>Logging & moderation</li>
+              <li>Role automation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights -->
+    <section class="section">
+      <div class="container">
+        <header class="section-header">
+          <h2>Why teams choose Cammdesigns</h2>
+        </header>
+        <div class="grid grid-3">
+          <div class="stat-card">
+            <span class="stat-label">Communities served</span>
+            <span class="stat-value">200+</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Average turnaround</span>
+            <span class="stat-value">3–7 days</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Active Discord members</span>
+            <span class="stat-value">1,400+</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section section-cta">
+      <div class="container section-cta-inner">
+        <div>
+          <h2>Bring your next project to life</h2>
+          <p>Join the Discord to request a quote, open a ticket, or get support on an existing order.</p>
+        </div>
+        <a href="https://discord.gg/2qftvZdQ" class="btn primary" target="_blank" rel="noopener">
+          Join the Discord
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Cammdesigns — Premium ERLC designs & services.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <a href="discord.html">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.main-nav');
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+      toggle.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+
+<!-- ==========
+FILE: /work.html
+========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Work — Cammdesigns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Cammdesigns</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="work.html" class="nav-link active">Work</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="discord.html" class="nav-link nav-cta">Join Discord</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Professional work</h1>
+        <p>
+          A curated look at the types of projects Cammdesigns delivers for ERLC and Roblox communities.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-3">
+          <article class="card card-work">
+            <h3>Graphics</h3>
+            <p>High-fidelity visual design tailored to your brand’s style and tone.</p>
+            <ul class="tag-list">
+              <li>Server logos</li>
+              <li>Department seals</li>
+              <li>Social media art</li>
+            </ul>
+          </article>
+          <article class="card card-work">
+            <h3>Clothing</h3>
+            <p>Premium Roblox clothing with realistic folds, shading, and detail.</p>
+            <ul class="tag-list">
+              <li>Uniform sets</li>
+              <li>Casual wear</li>
+              <li>Ranked outfits</li>
+            </ul>
+          </article>
+          <article class="card card-work">
+            <h3>Liveries</h3>
+            <p>Elite ERLC vehicle liveries with clean layouts and sharp typography.</p>
+            <ul class="tag-list">
+              <li>Police fleets</li>
+              <li>Fire & EMS</li>
+              <li>Civilian packages</li>
+            </ul>
+          </article>
+          <article class="card card-work">
+            <h3>ELS</h3>
+            <p>Realistic emergency lighting setups that feel immersive and consistent.</p>
+            <ul class="tag-list">
+              <li>Pattern tuning</li>
+              <li>Color profiles</li>
+              <li>Vehicle-specific configs</li>
+            </ul>
+          </article>
+          <article class="card card-work">
+            <h3>Photography</h3>
+            <p>Cinematic in-game screenshots with strong composition and lighting.</p>
+            <ul class="tag-list">
+              <li>Showcase shots</li>
+              <li>Banner-ready images</li>
+              <li>Thumbnail sets</li>
+            </ul>
+          </article>
+          <article class="card card-work">
+            <h3>Discord</h3>
+            <p>Professional server architecture, roles, and automation flows.</p>
+            <ul class="tag-list">
+              <li>Channel structure</li>
+              <li>Onboarding flows</li>
+              <li>Ticket & support systems</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-cta">
+      <div class="container section-cta-inner">
+        <div>
+          <h2>Ready to start a project?</h2>
+          <p>Open a ticket in the Discord to request pricing, timelines, and availability.</p>
+        </div>
+        <a href="https://discord.gg/2qftvZdQ" class="btn primary" target="_blank" rel="noopener">
+          Open a ticket
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Cammdesigns — All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <a href="discord.html">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle2 = document.querySelector('.nav-toggle');
+    const nav2 = document.querySelector('.main-nav');
+    toggle2.addEventListener('click', () => {
+      nav2.classList.toggle('open');
+      toggle2.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+
+<!-- ==========
+FILE: /courses.html
+========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Courses — Cammdesigns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Cammdesigns</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="courses.html" class="nav-link active">Courses</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="discord.html" class="nav-link nav-cta">Join Discord</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Step-by-step ERLC courses</h1>
+        <p>
+          Learn how to design, build, and ship professional-quality assets for your own community or clients.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-2">
+          <article class="card course-card">
+            <h3>Discord Bots for ERLC Servers</h3>
+            <p>
+              Build bots from scratch with commands, logs, tickets, and automation tailored to ERLC communities.
+            </p>
+            <ul class="course-meta">
+              <li><strong>Level:</strong> Beginner–Intermediate</li>
+              <li><strong>Format:</strong> Video + project files</li>
+              <li><strong>Focus:</strong> Moderation, tickets, logging</li>
+            </ul>
+          </article>
+
+          <article class="card course-card">
+            <h3>Logo & Branding Design</h3>
+            <p>
+              Create clean, original department and community logos that look consistent across all platforms.
+            </p>
+            <ul class="course-meta">
+              <li><strong>Level:</strong> All levels</li>
+              <li><strong>Format:</strong> Guided exercises</li>
+              <li><strong>Focus:</strong> Typography, layout, export</li>
+            </ul>
+          </article>
+
+          <article class="card course-card">
+            <h3>Server Banners & Promo Graphics</h3>
+            <p>
+              Design sharp banners and promotional graphics that instantly upgrade your server’s first impression.
+            </p>
+            <ul class="course-meta">
+              <li><strong>Level:</strong> Intermediate</li>
+              <li><strong>Format:</strong> Case studies</li>
+              <li><strong>Focus:</strong> Composition, color, effects</li>
+            </ul>
+          </article>
+
+          <article class="card course-card">
+            <h3>ERLC Liveries & Uniforms</h3>
+            <p>
+              Build polished vehicle liveries and clothing sets with clean lines and consistent detailing.
+            </p>
+            <ul class="course-meta">
+              <li><strong>Level:</strong> Intermediate–Advanced</li>
+              <li><strong>Format:</strong> Project-based</li>
+              <li><strong>Focus:</strong> Templates, detailing, exports</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>How to enroll</h2>
+          <p>All course access and support is managed through the Cammdesigns Discord server.</p>
+        </header>
+        <ol class="steps-list">
+          <li><strong>Step 1:</strong> Join the Discord using the invite link.</li>
+          <li><strong>Step 2:</strong> Go to the <em>#courses</em> or <em>#dashboard</em> channel.</li>
+          <li><strong>Step 3:</strong> Open a ticket or follow the pinned instructions to enroll.</li>
+        </ol>
+        <a href="https://discord.gg/2qftvZdQ" class="btn primary" target="_blank" rel="noopener">
+          Join Discord for courses
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Cammdesigns — Courses for ERLC creators.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <a href="discord.html">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle3 = document.querySelector('.nav-toggle');
+    const nav3 = document.querySelector('.main-nav');
+    toggle3.addEventListener('click', () => {
+      nav3.classList.toggle('open');
+      toggle3.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+
+<!-- ==========
+FILE: /contact.html
+========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact — Cammdesigns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Cammdesigns</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="discord.html" class="nav-link nav-cta">Join Discord</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact Cammdesigns</h1>
+        <p>
+          For orders, quotes, and support, the fastest way to reach us is through the Discord server.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <div class="contact-info">
+          <h2>General inquiries</h2>
+          <p>
+            Use the form below for basic questions. For project requests and active order support,
+            please join the Discord and open a ticket.
+          </p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> contact@cammdesigns.org</li>
+            <li><strong>Discord:</strong> <a href="https://discord.gg/2qftvZdQ" target="_blank" rel="noopener">Join server</a></li>
+          </ul>
+          <p class="contact-note">
+            Response times may vary. For urgent project matters, always use the Discord ticket system.
+          </p>
+        </div>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" />
+          </div>
+          <div class="form-row">
+            <label for="type">Inquiry type</label>
+            <select id="type">
+              <option>General question</option>
+              <option>Project request</option>
+              <option>Course question</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell us what you’re looking for..."></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send message</button>
+          <p class="form-disclaimer">
+            This form is for demonstration only. Implement backend handling to process submissions.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Cammdesigns — Bringing your vision to life one project at a time.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <a href="discord.html">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle4 = document.querySelector('.nav-toggle');
+    const nav4 = document.querySelector('.main-nav');
+    toggle4.addEventListener('click', () => {
+      nav4.classList.toggle('open');
+      toggle4.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+
+<!-- ==========
+FILE: /discord.html
+========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Discord — Cammdesigns</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Cammdesigns</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="discord.html" class="nav-link nav-cta active">Join Discord</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Join the Cammdesigns Discord</h1>
+        <p>
+          Get support, open tickets, enroll in courses, and stay updated on new releases—all in one place.
+        </p>
+      </div>
+    </section>
+
+    <section class="section section-cta">
+      <div class="container section-cta-inner">
+        <div>
+          <h2>Official Discord server</h2>
+          <p>Click the button to join. Make sure to read the rules and follow the onboarding steps.</p>
+        </div>
+        <a href="https://discord.gg/2qftvZdQ" class="btn primary" target="_blank" rel="noopener">
+          Join via invite
+        </a>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>Inside the server</h2>
+        </header>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Tickets & Orders</h3>
+            <p>Open tickets for new projects, revisions, and order support.</p>
+          </article>
+          <article class="card">
+            <h3>Announcements</h3>
+            <p>Stay informed about new services, course updates, and limited-time offers.</p>
+          </article>
+          <article class="card">
+            <h3>Creator Community</h3>
+            <p>Connect with other ERLC creators, share feedback, and showcase your work.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Cammdesigns — Discord is the hub for all support and orders.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="courses.html">Courses</a>
+        <a href="contact.html">Contact</a>
+        <a href="discord.html">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle5 = document.querySelector('.nav-toggle');
+    const nav5 = document.querySelector('.main-nav');
+    toggle5.addEventListener('click', () => {
+      nav5.classList.toggle('open');
+      toggle5.classList.toggle('open');
+    });
+  </script>
+</body>
+</html>
+
+<!-- ==========
+FILE: /styles.css
+Red & black modern theme
+========== -->
+:root {
+  --bg: #050507;
+  --bg-alt: #111116;
+  --bg-soft: #181820;
+  --accent: #e02424;
+  --accent-soft: rgba(224, 36, 36, 0.15);
+  --text: #f5f5f7;
+  --muted: #a0a0b3;
+  --border: #262633;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 18px;
+  --shadow-soft: 0 18px 45px rgba(0, 0, 0, 0.55);
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top, #15151f 0, #050507 55%);
+  color: var(--text);
+  font-family: var(--font-main);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Layout */
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+main {
+  flex: 1;
+}
+
+/* Header & nav */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(18px);
+  background: linear-gradient(
+    to bottom,
+    rgba(5, 5, 7, 0.96),
+    rgba(5, 5, 7, 0.85),
+    transparent
+  );
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 0;
+}
+
+.logo {
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--muted);
+  transition: color 0.2s ease, background 0.2s ease, transform 0.1s ease;
+}
+
+.nav-link:hover {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.04);
+  transform: translateY(-1px);
+}
+
+.nav-link.active {
+  color: var(--text);
+  background: var(--accent-soft);
+}
+
+.nav-cta {
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 0 0 1px rgba(224, 36, 36, 0.4);
+}
+
+.nav-cta:hover {
+  background: #ff2f2f;
+}
+
+/* Mobile nav */
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  margin: 4px 0;
+  background: var(--text);
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.nav-toggle.open span:nth-child(1) {
+  transform: translateY(6px) rotate(45deg);
+}
+.nav-toggle.open span:nth-child(2) {
+  opacity: 0;
+}
+.nav-toggle.open span:nth-child(3) {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+/* Hero */
+
+.hero {
+  padding: 4.5rem 0 3.5rem;
+}
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 2.6rem;
+  line-height: 1.1;
+  margin: 0 0 1rem;
+}
+
+.hero-text p {
+  margin: 0 0 1.5rem;
+  color: var(--muted);
+  max-width: 32rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.hero-meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.hero-media {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-card {
+  background: radial-gradient(circle at top left, #2a0b0b, #111116);
+  border-radius: var(--radius-lg);
+  padding: 1.6rem 1.5rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-soft);
+  max-width: 320px;
+}
+
+.hero-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.hero-card p {
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+.hero-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.hero-list li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: 0.35rem;
+}
+
+.hero-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.45rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+/* Sections */
+
+.section {
+  padding: 3.5rem 0;
+}
+
+.section-alt {
+  background: radial-gradient(circle at top, #15151f 0, #050507 55%);
+}
+
+.section-header {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.section-header h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.6rem;
+}
+
+.section-header p {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* Grids & cards */
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card {
+  background: var(--bg-soft);
+  border-radius: var(--radius-md);
+  padding: 1.4rem 1.3rem;
+  border: 1px solid var(--border);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+.card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin: 0 0 0.9rem;
+  color: var(--muted);
+}
+
+.tag-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.tag-list li {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+/* Stats */
+
+.stat-card {
+  background: linear-gradient(135deg, #1b1b24, #101018);
+  border-radius: var(--radius-md);
+  padding: 1.2rem 1.1rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+.stat-value {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* CTA */
+
+.section-cta {
+  background: radial-gradient(circle at top, #2a0b0b 0, #050507 55%);
+}
+
+.section-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.section-cta-inner h2 {
+  margin: 0 0 0.4rem;
+}
+
+.section-cta-inner p {
+  margin: 0;
+  color: var(--muted);
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.55rem 1.3rem;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease,
+    transform 0.1s ease;
+}
+
+.btn.primary {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: 0 12px 30px rgba(224, 36, 36, 0.45);
+}
+
+.btn.primary:hover {
+  background: #ff2f2f;
+  transform: translateY(-1px);
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--text);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.btn.ghost:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* Page hero */
+
+.page-hero {
+  padding: 3.5rem 0 2.5rem;
+}
+
+.page-hero h1 {
+  margin: 0 0 0.6rem;
+  font-size: 2rem;
+}
+
+.page-hero p {
+  margin: 0;
+  color: var(--muted);
+  max-width: 32rem;
+}
+
+/* Courses */
+
+.course-card .course-meta {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.course-card .course-meta li {
+  margin-bottom: 0.25rem;
+}
+
+/* Steps */
+
+.steps-list {
+  margin: 0 0 1.5rem;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.steps-list li {
+  margin-bottom: 0.4rem;
+}
+
+/* Contact */
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.2fr);
+  gap: 2rem;
+}
+
+.contact-info h2 {
+  margin-top: 0;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  color: var(--muted);
+}
+
+.contact-list li {
+  margin-bottom: 0.35rem;
+}
+
+.contact-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.contact-form {
+  background: var(--bg-soft);
+  border-radius: var(--radius-md);
+  padding: 1.5rem 1.4rem;
+  border: 1px solid var(--border);
+}
+
+.form-row {
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.form-row label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  background: #050507;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.6rem;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.form-row input:focus,
+.form-row select:focus,
+.form-row textarea:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px rgba(224, 36, 36, 0.4);
+}
+
+.form-disclaimer {
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+/* Footer */
+
+.site-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 1.4rem 0 1.6rem;
+  background: #050507;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--text);
+}
+
+/* Responsive */
+
+@media (max-width: 900px) {
+  .hero-inner {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hero-media {
+    justify-content: flex-start;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .contact-layout {
+    grid-template-columns: minmax
