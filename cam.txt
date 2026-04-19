@@ -1,0 +1,101 @@
+<!-- ==========
+FILE: /index.html
+========== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cammdesigns — Premium ERLC Designs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">Cammdesigns</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="courses.html" class="nav-link">Courses</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="discord.html" class="nav-link nav-cta">Join Discord</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Premium ERLC designs & services</h1>
+          <p>
+            Cammdesigns delivers high-end ERLC graphics, liveries, bots, and branding
+            for communities that want a sharp, professional look.
+          </p>
+          <div class="hero-actions">
+            <a href="courses.html" class="btn primary">Browse Courses</a>
+            <a href="discord.html" class="btn ghost">Join Discord</a>
+          </div>
+          <p class="hero-meta">
+            Trusted by <strong>2,000+ creators</strong> across the ERLC community.
+          </p>
+        </div>
+        <div class="hero-media">
+          <div class="hero-card">
+            <h2>Cammdesigns Studio</h2>
+            <p>Clean layouts, bold contrast, and detail-focused design for every project.</p>
+            <ul class="hero-list">
+              <li>Custom server branding</li>
+              <li>Optimized liveries & uniforms</li>
+              <li>Automated Discord systems</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services overview -->
+    <section class="section section-alt">
+      <div class="container">
+        <header class="section-header">
+          <h2>What we create</h2>
+          <p>Specialized design services tailored for ERLC and Roblox communities.</p>
+        </header>
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Graphics & Branding</h3>
+            <p>High-impact logos, banners, and promo graphics that define your community’s identity.</p>
+            <ul class="tag-list">
+              <li>Logos</li>
+              <li>Banners</li>
+              <li>Promo art</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Liveries & Clothing</h3>
+            <p>Detailed ERLC liveries and Roblox uniforms that look polished and ready for release.</p>
+            <ul class="tag-list">
+              <li>Police & fire</li>
+              <li>Civilian fleets</li>
+              <li>Uniform sets</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Bots & Infrastructure</h3>
+            <p>Discord bots, automation, and server layouts that keep your community running smoothly.</p>
+            <ul class="tag-list">
+              <li>Ticket systems</li>
+              <li>Logging & moderation</li>
+              <li>Role automation</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Highlights -->
+... (1,100 lines left)
